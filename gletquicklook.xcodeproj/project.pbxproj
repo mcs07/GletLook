@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91340BA1359ECCC008E4461 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91340B91359ECCC008E4461 /* Cocoa.framework */; };
 		C9A1E0D61359CF78003C3E9B /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1E0D51359CF78003C3E9B /* QuickLook.framework */; };
 		C9A1E0D81359CF78003C3E9B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1E0D71359CF78003C3E9B /* ApplicationServices.framework */; };
 		C9A1E0DA1359CF78003C3E9B /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1E0D91359CF78003C3E9B /* CoreServices.framework */; };
 		C9A1E0DC1359CF78003C3E9B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1E0DB1359CF78003C3E9B /* CoreFoundation.framework */; };
 		C9A1E0E21359CF78003C3E9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9A1E0E01359CF78003C3E9B /* InfoPlist.strings */; };
-		C9A1E0E51359CF78003C3E9B /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = C9A1E0E41359CF78003C3E9B /* GenerateThumbnailForURL.c */; };
-		C9A1E0E71359CF78003C3E9B /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = C9A1E0E61359CF78003C3E9B /* GeneratePreviewForURL.c */; };
+		C9A1E0E51359CF78003C3E9B /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A1E0E41359CF78003C3E9B /* GenerateThumbnailForURL.m */; };
+		C9A1E0E71359CF78003C3E9B /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A1E0E61359CF78003C3E9B /* GeneratePreviewForURL.m */; };
 		C9A1E0E91359CF78003C3E9B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C9A1E0E81359CF78003C3E9B /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C91340B91359ECCC008E4461 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C9A1E0D21359CF78003C3E9B /* gletquicklook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gletquicklook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A1E0D51359CF78003C3E9B /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		C9A1E0D71359CF78003C3E9B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		C9A1E0D91359CF78003C3E9B /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		C9A1E0DB1359CF78003C3E9B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		C9A1E0DF1359CF78003C3E9B /* gletquicklook-Info.plist */ = {isa = PBXFileReference; path = "gletquicklook-Info.plist"; sourceTree = "<group>"; };
+		C9A1E0DF1359CF78003C3E9B /* gletquicklook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gletquicklook-Info.plist"; sourceTree = "<group>"; };
 		C9A1E0E11359CF78003C3E9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C9A1E0E31359CF78003C3E9B /* gletquicklook-Prefix.pch */ = {isa = PBXFileReference; path = "gletquicklook-Prefix.pch"; sourceTree = "<group>"; };
-		C9A1E0E41359CF78003C3E9B /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		C9A1E0E61359CF78003C3E9B /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		C9A1E0E31359CF78003C3E9B /* gletquicklook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gletquicklook-Prefix.pch"; sourceTree = "<group>"; };
+		C9A1E0E41359CF78003C3E9B /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		C9A1E0E61359CF78003C3E9B /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		C9A1E0E81359CF78003C3E9B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,6 +42,7 @@
 				C9A1E0D81359CF78003C3E9B /* ApplicationServices.framework in Frameworks */,
 				C9A1E0DA1359CF78003C3E9B /* CoreServices.framework in Frameworks */,
 				C9A1E0DC1359CF78003C3E9B /* CoreFoundation.framework in Frameworks */,
+				C91340BA1359ECCC008E4461 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 		C9A1E0D41359CF78003C3E9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C91340B91359ECCC008E4461 /* Cocoa.framework */,
 				C9A1E0D51359CF78003C3E9B /* QuickLook.framework */,
 				C9A1E0D71359CF78003C3E9B /* ApplicationServices.framework */,
 				C9A1E0D91359CF78003C3E9B /* CoreServices.framework */,
@@ -77,8 +81,8 @@
 		C9A1E0DD1359CF78003C3E9B /* gletquicklook */ = {
 			isa = PBXGroup;
 			children = (
-				C9A1E0E41359CF78003C3E9B /* GenerateThumbnailForURL.c */,
-				C9A1E0E61359CF78003C3E9B /* GeneratePreviewForURL.c */,
+				C9A1E0E41359CF78003C3E9B /* GenerateThumbnailForURL.m */,
+				C9A1E0E61359CF78003C3E9B /* GeneratePreviewForURL.m */,
 				C9A1E0E81359CF78003C3E9B /* main.c */,
 				C9A1E0DE1359CF78003C3E9B /* Supporting Files */,
 			);
@@ -175,8 +179,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9A1E0E51359CF78003C3E9B /* GenerateThumbnailForURL.c in Sources */,
-				C9A1E0E71359CF78003C3E9B /* GeneratePreviewForURL.c in Sources */,
+				C9A1E0E51359CF78003C3E9B /* GenerateThumbnailForURL.m in Sources */,
+				C9A1E0E71359CF78003C3E9B /* GeneratePreviewForURL.m in Sources */,
 				C9A1E0E91359CF78003C3E9B /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +282,7 @@
 				C9A1E0EE1359CF78003C3E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
