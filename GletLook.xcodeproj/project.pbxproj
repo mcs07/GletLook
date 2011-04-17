@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C91340BA1359ECCC008E4461 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91340B91359ECCC008E4461 /* Cocoa.framework */; };
+		C955F056135B272100440D42 /* gletlook.html in Resources */ = {isa = PBXBuildFile; fileRef = C955F055135B272100440D42 /* gletlook.html */; };
 		C9A1E0D61359CF78003C3E9B /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1E0D51359CF78003C3E9B /* QuickLook.framework */; };
 		C9A1E0D81359CF78003C3E9B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1E0D71359CF78003C3E9B /* ApplicationServices.framework */; };
 		C9A1E0DA1359CF78003C3E9B /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1E0D91359CF78003C3E9B /* CoreServices.framework */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		C91340B91359ECCC008E4461 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C955F055135B272100440D42 /* gletlook.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = gletlook.html; path = GletLook/gletlook.html; sourceTree = SOURCE_ROOT; };
 		C9A1E0D21359CF78003C3E9B /* GletLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GletLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A1E0D51359CF78003C3E9B /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		C9A1E0D71359CF78003C3E9B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
@@ -108,6 +110,7 @@
 		C9A9F880135A81EF00076F5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C955F055135B272100440D42 /* gletlook.html */,
 				C9B65F36135B1FDA003202E2 /* icon.png */,
 			);
 			name = Resources;
@@ -176,6 +179,7 @@
 				C9A1E0E21359CF78003C3E9B /* InfoPlist.strings in Resources */,
 				C9B65F37135B1FDA003202E2 /* icon.png in Resources */,
 				C9B65F42135B2021003202E2 /* InfoPlist.strings in Resources */,
+				C955F056135B272100440D42 /* gletlook.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

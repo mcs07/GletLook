@@ -10,6 +10,7 @@
 
 OSStatus GenerateThumbnailForURL(void *thisInterface, QLThumbnailRequestRef thumbnail, CFURLRef url, CFStringRef contentTypeUTI, CFDictionaryRef options, CGSize maxSize)
 {
+    // Not worth implementing for .glet files
     return noErr;
 }
 
