@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		C90210E1135B38490064D3D3 /* addgletUTI.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = addgletUTI.app; path = GletLook/addgletUTI.app; sourceTree = SOURCE_ROOT; };
+		C90210E4135B42560064D3D3 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		C91340B91359ECCC008E4461 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C955F055135B272100440D42 /* gletlook.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = gletlook.html; path = GletLook/gletlook.html; sourceTree = SOURCE_ROOT; };
 		C9A1E0D21359CF78003C3E9B /* GletLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GletLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +61,7 @@
 		C9A1E0C51359CF77003C3E9B = {
 			isa = PBXGroup;
 			children = (
+				C90210E4135B42560064D3D3 /* README.markdown */,
 				C9A1E0DD1359CF78003C3E9B /* GletLook */,
 				C9A1E0D41359CF78003C3E9B /* Frameworks */,
 				C9A1E0D31359CF78003C3E9B /* Products */,
