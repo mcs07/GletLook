@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90210E2135B38490064D3D3 /* addgletUTI.app in Resources */ = {isa = PBXBuildFile; fileRef = C90210E1135B38490064D3D3 /* addgletUTI.app */; };
 		C91340BA1359ECCC008E4461 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91340B91359ECCC008E4461 /* Cocoa.framework */; };
 		C955F056135B272100440D42 /* gletlook.html in Resources */ = {isa = PBXBuildFile; fileRef = C955F055135B272100440D42 /* gletlook.html */; };
 		C9A1E0D61359CF78003C3E9B /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1E0D51359CF78003C3E9B /* QuickLook.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C90210E1135B38490064D3D3 /* addgletUTI.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = addgletUTI.app; path = GletLook/addgletUTI.app; sourceTree = SOURCE_ROOT; };
 		C91340B91359ECCC008E4461 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C955F055135B272100440D42 /* gletlook.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = gletlook.html; path = GletLook/gletlook.html; sourceTree = SOURCE_ROOT; };
 		C9A1E0D21359CF78003C3E9B /* GletLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GletLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 		C9A9F880135A81EF00076F5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C90210E1135B38490064D3D3 /* addgletUTI.app */,
 				C955F055135B272100440D42 /* gletlook.html */,
 				C9B65F36135B1FDA003202E2 /* icon.png */,
 			);
@@ -180,6 +183,7 @@
 				C9B65F37135B1FDA003202E2 /* icon.png in Resources */,
 				C9B65F42135B2021003202E2 /* InfoPlist.strings in Resources */,
 				C955F056135B272100440D42 /* gletlook.html in Resources */,
+				C90210E2135B38490064D3D3 /* addgletUTI.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +260,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
