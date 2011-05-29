@@ -8,6 +8,8 @@ GeekTool is a preference pane for Mac OS X that allows you to display different 
 
 [Find Geeklets](http://www.macosxtips.co.uk/geeklets/)
 
+![GletLook Screenshot](http://www.macosxtips.co.uk/geeklets/modules/upload/attachments/thumbs/qlscreenshot600x500.jpg)
+
 ## Installation
 
 Just drag GletLook.qlgenerator to /Library/QuickLook or ~/Library/QuickLook. You may need to create that folder if it doesn't already exist.
