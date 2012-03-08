@@ -32,28 +32,22 @@ OSStatus GeneratePreviewForURL(void *thisInterface, QLPreviewRequestRef preview,
 	
 	// Parse contents of selected glet file
 	NSDictionary *fileDict = [NSDictionary dictionaryWithContentsOfFile:[(NSURL *)url path]];
-	NSString *name = [fileDict objectForKey:@"Name"];
 	NSString *command = [(NSString *)CFXMLCreateStringByEscapingEntities(NULL, (CFStringRef) [fileDict objectForKey:@"Command"], NULL) autorelease];
 	NSString *font = [fileDict objectForKey:@"FontFamily"];
 	NSNumber *fontSize = [fileDict objectForKey:@"FontSize"];
 	NSString *coords = [fileDict objectForKey:@"GeekletFrame"];
-	NSNumber *refresh = [fileDict objectForKey:@"RefreshInterval"];
 	
 	// Generate html for properties
 	NSMutableString *dl = [[[NSMutableString alloc] init] autorelease];
-	if (name)
-		[dl appendString:[NSString stringWithFormat:@"<dt>Name</dt><dd>%@</dd>", name]];
-	if (command)
-		[dl appendString:[NSString stringWithFormat:@"<dt>Command</dt><dd><pre>%@</pre></dd>", command]];
-	if (font)
-		[dl appendString:[NSString stringWithFormat:@"<dt>Font</dt><dd>%@</dd>", font]];
-	if (fontSize)
-		[dl appendString:[NSString stringWithFormat:@"<dt>Font Size</dt><dd>%@</dd>", [fontSize stringValue]]];
+    
+	
+	if (font && fontSize)
+		[dl appendString:[NSString stringWithFormat:@"<p>%@pt %@</p>", fontSize, font]];
 	if (coords)
-		[dl appendString:[NSString stringWithFormat:@"<dt>Coordinates</dt><dd>%@</dd>", coords]];
-	if (refresh) {
-		[dl appendString:[NSString stringWithFormat:@"<dt>Refresh Rate</dt><dd>%@</dd>", [refresh stringValue]]];
-	}
+		[dl appendString:[NSString stringWithFormat:@"<p>%@</p>", coords]];
+    [dl appendString:[NSString stringWithFormat:@"</div>"]];
+    if (command)
+		[dl appendString:[NSString stringWithFormat:@"<pre>%@</pre>", command]];
 	
 	// Combine html
 	NSString *outputHTML = [NSString stringWithFormat:htmlString, [(NSURL *)url lastPathComponent], dl, nil];

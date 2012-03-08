@@ -52,7 +52,7 @@
 	<key>QLNeedsToBeRunInMainThread</key>
 	<false/>
 	<key>QLPreviewHeight</key>
-	<integer>500</integer>
+	<integer>300</integer>
 	<key>QLPreviewWidth</key>
 	<integer>600</integer>
 	<key>QLSupportsConcurrentRequests</key>
