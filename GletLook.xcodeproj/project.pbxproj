@@ -159,6 +159,9 @@
 /* Begin PBXProject section */
 		C9A1E0C71359CF77003C3E9B /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
 			buildConfigurationList = C9A1E0CA1359CF77003C3E9B /* Build configuration list for PBXProject "GletLook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
